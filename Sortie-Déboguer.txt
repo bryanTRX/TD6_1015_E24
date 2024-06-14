@@ -1,0 +1,133 @@
+﻿'TD6.exe' (Win32) : Chargé 'C:\Test\TD6\x64\Debug\TD6.exe'. Les symboles ont été chargés.
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\ntdll.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\kernel32.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\KernelBase.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\shell32.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\msvcp_win.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\ucrtbase.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\user32.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Qt\6.2.1\msvc2019_64\bin\Qt6Cored.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Qt\6.2.1\msvc2019_64\bin\Qt6Guid.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\win32u.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Qt\6.2.1\msvc2019_64\bin\Qt6Widgetsd.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\gdi32.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\gdi32full.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\advapi32.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\ole32.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\msvcrt.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\msvcp140d.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\vcruntime140d.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\combase.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\rpcrt4.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\vcruntime140_1d.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\ucrtbased.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\sechost.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\bcrypt.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\ws2_32.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\mpr.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\userenv.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\dwmapi.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\oleaut32.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\uxtheme.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\d3d11.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\dxgi.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\msvcp140_1d.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\msvcp140_2d.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\netapi32.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\version.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\winmm.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\cryptbase.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\netutils.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\srvcli.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\imm32.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\SHCore.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\bcryptprimitives.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Qt\6.2.1\msvc2019_64\plugins\platforms\qwindowsd.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\wtsapi32.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\kernel.appcore.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\windows.storage.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\WinTypes.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\shlwapi.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\profapi.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\powrprof.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\umpdc.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Qt\6.2.1\msvc2019_64\plugins\styles\qwindowsvistastyled.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\DWrite.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Qt\6.2.1\msvc2019_64\plugins\imageformats\qgifd.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Qt\6.2.1\msvc2019_64\plugins\imageformats\qicnsd.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Qt\6.2.1\msvc2019_64\plugins\imageformats\qicod.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Qt\6.2.1\msvc2019_64\plugins\imageformats\qjpegd.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Qt\6.2.1\msvc2019_64\plugins\imageformats\qsvgd.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Qt\6.2.1\msvc2019_64\bin\Qt6Svgd.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Qt\6.2.1\msvc2019_64\plugins\imageformats\qtgad.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Qt\6.2.1\msvc2019_64\plugins\imageformats\qtiffd.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Qt\6.2.1\msvc2019_64\plugins\imageformats\qwbmpd.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Qt\6.2.1\msvc2019_64\plugins\imageformats\qwebpd.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\d3d9.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\DXCore.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\d3d9on12.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\D3D12.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\cfgmgr32.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\D3D12Core.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89d4d93fe5389cc3\igd12umd64.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89d4d93fe5389cc3\igd12um64xel.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\crypt32.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\ControlLib.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89d4d93fe5389cc3\IntelControlLib.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\ResourcePolicyClient.dll'. 
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\ResourcePolicyClient.dll'
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\directxdatabasehelper.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89d4d93fe5389cc3\igdgmm64.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89d4d93fe5389cc3\igc64.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\D3DSCache.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89d4d93fe5389cc3\igd12dxva64.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\setupapi.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89d4d93fe5389cc3\igddxvacommon64.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89d4d93fe5389cc3\media_bin_64.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89d4d93fe5389cc3\igdinfo64.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\cryptsp.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\rsaenh.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\twinapi.appcore.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\dxilconv.dll'. 
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\dxilconv.dll'
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\ResourcePolicyClient.dll'. 
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\ResourcePolicyClient.dll'
+Le thread 'D3D Background Thread 1' (30516) s'est arrêté avec le code 0 (0x0).
+Le thread 'D3D Background Thread 3' (18012) s'est arrêté avec le code 0 (0x0).
+Le thread 'D3D Background Thread 0' (2492) s'est arrêté avec le code 0 (0x0).
+Le thread 'D3D Background Thread 2' (23296) s'est arrêté avec le code 0 (0x0).
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89d4d93fe5389cc3\igdinfo64.dll'
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89d4d93fe5389cc3\media_bin_64.dll'
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89d4d93fe5389cc3\igddxvacommon64.dll'
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\setupapi.dll'
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89d4d93fe5389cc3\igd12dxva64.dll'
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89d4d93fe5389cc3\IntelControlLib.dll'
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\ControlLib.dll'
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89d4d93fe5389cc3\igdgmm64.dll'
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89d4d93fe5389cc3\igc64.dll'
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\msasn1.dll'. 
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\msasn1.dll'
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\crypt32.dll'
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89d4d93fe5389cc3\igd12um64xel.dll'
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\DriverStore\FileRepository\iigd_dch.inf_amd64_89d4d93fe5389cc3\igd12umd64.dll'
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\twinapi.appcore.dll'
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\D3DSCache.dll'
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\D3D12Core.dll'
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\D3D12.dll'
+'TD6.exe' (Win32) : Déchargé 'C:\Windows\System32\d3d9on12.dll'
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\msctf.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\clbcatq.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\DataExchange.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\twinapi.appcore.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\TextInputFramework.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\CoreMessaging.dll'. 
+'TD6.exe' (Win32) : Chargé 'C:\Windows\System32\CoreUIComponents.dll'. 
+Le thread 28188 s'est arrêté avec le code 0 (0x0).
+Le thread 17084 s'est arrêté avec le code 0 (0x0).
+Le thread 20964 s'est arrêté avec le code 0 (0x0).
+Le thread 11756 s'est arrêté avec le code 0 (0x0).
+Le thread 24456 s'est arrêté avec le code 0 (0x0).
+Le thread 31532 s'est arrêté avec le code 0 (0x0).
+Le thread 31628 s'est arrêté avec le code 0 (0x0).
+Le thread 16480 s'est arrêté avec le code 0 (0x0).
+Le programme '[21508] TD6.exe' s'est arrêté avec le code 0 (0x0).

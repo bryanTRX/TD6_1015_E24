@@ -1,6 +1,4 @@
 #pragma once
-#ifndef CAISSE_H
-#define CAISSE_H
 
 #include <vector>
 #include <string>
@@ -67,5 +65,3 @@ namespace Modele
 		std::vector<Article> articles_;
 	};
 }
-
-#endif

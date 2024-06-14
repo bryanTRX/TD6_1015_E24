@@ -104,7 +104,7 @@
     <QtMoc Include="affichage.h" />
     <ClCompile Include="bibliotheque_cours\bibliotheque_cours.cpp" />
     <ClCompile Include="bibliotheque_cours\verification_allocation.cpp" />
-    <ClCompile Include="TD6.cpp" />
+    <ClCompile Include="affichage.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>

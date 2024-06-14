@@ -1,7 +1,4 @@
-#include "affichage.h"
-
-#include <QBrush>
-#include <QString>
+ï»¿#include "affichage.h"
 
 namespace Vue
 {
@@ -20,18 +17,19 @@ namespace Vue
 
     void Vision::ajouterArticle()
     {
-        try {
+        try 
+        {
             QString description = ui.descriptionLineEdit->text();
             double prix = ui.prixLineEdit->text().toDouble();
             bool taxable = ui.checkBox->isChecked();
 
             if (description.isEmpty())
             {
-                throw std::invalid_argument("La description de l'article ne peut pas être vide.");
+                throw std::invalid_argument("La description de l'article ne peut pas Ãªtre vide.");
             }
             if (prix == 0.0)
             {
-                throw std::invalid_argument("Le prix de l'article ne peut pas être zéro.");
+                throw std::invalid_argument("Le prix de l'article ne peut pas Ãªtre zÃ©ro.");
             }
 
             Modele::Article article = { description.toStdString(), prix, taxable };
@@ -47,6 +45,7 @@ namespace Vue
 
             ui.retirerButton->setEnabled(true);
         }
+
         catch (const std::invalid_argument& e)
         {
             afficherMessageErreur(e.what());
@@ -56,7 +55,8 @@ namespace Vue
     void Vision::retirerArticle()
     {
         QListWidgetItem* item = ui.articlesList->currentItem();
-        if (item) {
+        if (item)
+        {
             QString description = item->text().split("\t")[0];
             caisse.retirerArticle(description.toStdString());
 
@@ -78,8 +78,8 @@ namespace Vue
     void Vision::mettreAJourTotaux()
     {
         double totalAvantTaxes = caisse.calculerTotalAvantTaxes();
-        double totalTaxes = caisse.calculerTotalTaxes();
-        double totalAPayer = caisse.calculerTotalAPayer();
+        double totalTaxes      = caisse.calculerTotalTaxes();
+        double totalAPayer     = caisse.calculerTotalAPayer();
 
         ui.totalAvantTaxesLabel->setText(QString::number(totalAvantTaxes, 'f', 2));
         ui.totalTaxesLabel->setText(QString::number(totalTaxes, 'f', 2));

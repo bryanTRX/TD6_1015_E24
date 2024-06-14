@@ -7,7 +7,6 @@
 #include <QListWidget>
 #include <QPushButton>
 #include <QObject>
-#include <sstream>
 #include <QlineEdit>
 
 #include "caisse.h"

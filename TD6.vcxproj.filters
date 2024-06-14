@@ -32,7 +32,7 @@
     <QtMoc Include="affichage.h">
       <Filter>Header Files</Filter>
     </QtMoc>
-    <ClCompile Include="TD6.cpp">
+    <ClCompile Include="affichage.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

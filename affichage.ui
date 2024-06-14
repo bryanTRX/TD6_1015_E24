@@ -19,7 +19,7 @@
      <rect>
       <x>60</x>
       <y>10</y>
-      <width>441</width>
+      <width>261</width>
       <height>24</height>
      </rect>
     </property>
@@ -32,7 +32,7 @@
      <rect>
       <x>60</x>
       <y>40</y>
-      <width>221</width>
+      <width>131</width>
       <height>24</height>
      </rect>
     </property>
@@ -43,10 +43,10 @@
    <widget class="QPushButton" name="ajouterButton">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>120</y>
-      <width>80</width>
-      <height>24</height>
+      <x>10</x>
+      <y>80</y>
+      <width>91</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="text">
@@ -56,10 +56,10 @@
    <widget class="QPushButton" name="retirerButton">
     <property name="geometry">
      <rect>
-      <x>20</x>
+      <x>10</x>
       <y>150</y>
-      <width>80</width>
-      <height>24</height>
+      <width>91</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="text">
@@ -69,10 +69,10 @@
    <widget class="QPushButton" name="reinitialiserButton">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>180</y>
-      <width>80</width>
-      <height>24</height>
+      <x>10</x>
+      <y>220</y>
+      <width>91</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="text">
@@ -83,22 +83,22 @@
     <property name="geometry">
      <rect>
       <x>120</x>
-      <y>150</y>
-      <width>77</width>
-      <height>22</height>
+      <y>80</y>
+      <width>91</width>
+      <height>61</height>
      </rect>
     </property>
     <property name="text">
-     <string>Taxable</string>
+     <string>Ajouter taxes</string>
     </property>
    </widget>
    <widget class="QListWidget" name="articlesList">
     <property name="geometry">
      <rect>
-      <x>320</x>
-      <y>50</y>
-      <width>256</width>
-      <height>192</height>
+      <x>260</x>
+      <y>40</y>
+      <width>321</width>
+      <height>211</height>
      </rect>
     </property>
    </widget>
@@ -107,12 +107,12 @@
      <rect>
       <x>260</x>
       <y>250</y>
-      <width>61</width>
+      <width>101</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>Sans taxes :</string>
+     <string>Somme Partielle :</string>
     </property>
    </widget>
    <widget class="QLabel" name="taxes">
@@ -125,7 +125,7 @@
      </rect>
     </property>
     <property name="text">
-     <string>Taxes (TPS/TPQ) :</string>
+     <string>Taxes (TPS/TVQ) :</string>
     </property>
    </widget>
    <widget class="QLabel" name="total">
@@ -133,12 +133,12 @@
      <rect>
       <x>260</x>
       <y>290</y>
-      <width>71</width>
+      <width>91</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>Prix total :</string>
+     <string>Montant total :</string>
     </property>
    </widget>
    <widget class="QLabel" name="produit">
@@ -170,7 +170,7 @@
    <widget class="QLabel" name="totalAvantTaxesLabel">
     <property name="geometry">
      <rect>
-      <x>330</x>
+      <x>360</x>
       <y>250</y>
       <width>49</width>
       <height>16</height>
@@ -196,7 +196,7 @@
    <widget class="QLabel" name="totalAPayerLabel">
     <property name="geometry">
      <rect>
-      <x>320</x>
+      <x>360</x>
       <y>290</y>
       <width>49</width>
       <height>16</height>
@@ -213,7 +213,7 @@
      <x>0</x>
      <y>0</y>
      <width>600</width>
-     <height>17</height>
+     <height>21</height>
     </rect>
    </property>
   </widget>
