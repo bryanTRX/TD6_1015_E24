@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>600</width>
-    <height>400</height>
+    <height>445</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -98,24 +98,11 @@
       <x>260</x>
       <y>40</y>
       <width>321</width>
-      <height>211</height>
+      <height>231</height>
      </rect>
     </property>
    </widget>
    <widget class="QLabel" name="sanstaxes">
-    <property name="geometry">
-     <rect>
-      <x>260</x>
-      <y>250</y>
-      <width>101</width>
-      <height>16</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Somme Partielle :</string>
-    </property>
-   </widget>
-   <widget class="QLabel" name="taxes">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -125,20 +112,33 @@
      </rect>
     </property>
     <property name="text">
-     <string>Taxes (TPS/TVQ) :</string>
+     <string>SOUS-TOTAL :</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="taxes">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>290</y>
+      <width>101</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TAXES (TPS/TVQ) :</string>
     </property>
    </widget>
    <widget class="QLabel" name="total">
     <property name="geometry">
      <rect>
       <x>260</x>
-      <y>290</y>
-      <width>91</width>
+      <y>310</y>
+      <width>101</width>
       <height>16</height>
      </rect>
     </property>
     <property name="text">
-     <string>Montant total :</string>
+     <string>TOTAL :</string>
     </property>
    </widget>
    <widget class="QLabel" name="produit">
@@ -171,8 +171,8 @@
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>250</y>
-      <width>49</width>
+      <y>270</y>
+      <width>221</width>
       <height>16</height>
      </rect>
     </property>
@@ -184,8 +184,8 @@
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>270</y>
-      <width>49</width>
+      <y>290</y>
+      <width>221</width>
       <height>16</height>
      </rect>
     </property>
@@ -197,8 +197,8 @@
     <property name="geometry">
      <rect>
       <x>360</x>
-      <y>290</y>
-      <width>49</width>
+      <y>310</y>
+      <width>221</width>
       <height>16</height>
      </rect>
     </property>

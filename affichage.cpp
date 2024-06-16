@@ -20,18 +20,25 @@ namespace Vue
         try 
         {
             QString description = ui.descriptionLineEdit->text();
-            double prix = ui.prixLineEdit->text().toDouble();
+            bool conversionOk = true;            
+            double prix = ui.prixLineEdit->text().toDouble(&conversionOk);
             bool taxable = ui.checkBox->isChecked();
 
             if (description.isEmpty())
             {
                 throw std::invalid_argument("La description de l'article ne peut pas être vide.");
             }
-            if (prix == 0.0)
+
+            if (!conversionOk)
             {
-                throw std::invalid_argument("Le prix de l'article ne peut pas être zéro.");
+                throw std::invalid_argument("Le prix de l'article doit être une valeur numérique.");
             }
 
+            else if (prix <= 0.0)
+            {
+                throw std::invalid_argument("Le prix de l'article ne peut pas être inférieur ou égal a zéro.");
+            }
+            
             Modele::Article article = { description.toStdString(), prix, taxable };
             caisse.ajouterArticle(article);
 
@@ -54,15 +61,19 @@ namespace Vue
 
     void Vision::retirerArticle()
     {
-        QListWidgetItem* item = ui.articlesList->currentItem();
-        if (item)
+        auto selectedItems = ui.articlesList->selectedItems();
+        std::vector<std::string> descriptions;
+
+        for (auto& item : selectedItems)
         {
             QString description = item->text().split("\t")[0];
-            caisse.retirerArticle(description.toStdString());
-
-            delete item;
-            mettreAJourTotaux();
+            descriptions.push_back(description.toStdString());
         }
+
+        caisse.retirerArticle(descriptions);
+
+        qDeleteAll(selectedItems);
+        mettreAJourTotaux();
 
         ui.retirerButton->setEnabled(ui.articlesList->count() > 0);
     }

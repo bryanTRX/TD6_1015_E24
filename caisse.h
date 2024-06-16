@@ -1,4 +1,4 @@
-#pragma once
+﻿#pragma once
 
 #include <vector>
 #include <string>
@@ -8,6 +8,7 @@
 
 namespace Modele
 {
+	// Structure représentant un article
 	struct Article
 	{
 		std::string description;
@@ -18,44 +19,59 @@ namespace Modele
 	class Caisse
 	{
 	public:
+		// Methodes ---------------------------------------------------------------------------------
+
+		// Méthode pour ajouter un article
 		void ajouterArticle(const Article& article)
 		{
+			// Vérifie si la description de l'article est vide
 			if (article.description.empty())
 			{
-				throw std::invalid_argument("La description de l'article ne peut pas �tre vide.");
-			}
-			if (article.prix == 0.0)
-			{
-				throw std::invalid_argument("Le prix de l'article ne peut pas �tre z�ro.");
+				throw std::invalid_argument("La description de l'article ne peut pas être vide.");
 			}
 
+			// Vérifie si le prix de l'article est zéro
+			if (article.prix <= 0.0)
+			{
+				throw std::invalid_argument("Le prix de l'article ne peut pas être inférieur ou égal a zéro.");
+			}
 			articles_.push_back(article);
 		}
 
-		void retirerArticle(const std::string& description)
+		// Méthode pour retirer un ou plusieurs articles en fonction de leur description
+		void retirerArticle(const std::vector<std::string>& descriptions)
 		{
-			auto it = find_if(articles_.begin(), articles_.end(), [&description](const Article& article) { return article.description == description; });
-
-			if (it != articles_.end())
+			for (const auto& description : descriptions)
 			{
-				articles_.erase(it);
+				auto it = std::remove_if(articles_.begin(), articles_.end(), [&description](const Article& article) { return article.description == description; });
+
+				if (it != articles_.end())
+				{
+					articles_.erase(it, articles_.end());
+				}
 			}
 		}
+
+		// Méthode pour réinitialiser la liste des articles
 		void reinitialiser()
 		{
 			articles_.clear();
 		}
+
+		// Méthode pour calculer le total avant taxes
 		double calculerTotalAvantTaxes() const
 		{
 			return std::accumulate(articles_.begin(), articles_.end(), 0.0, [](double total, const Article& article) { return total + article.prix; });
 		}
 
+		// Méthode pour calculer le total des taxes
 		double calculerTotalTaxes() const
 		{
 			return std::accumulate(articles_.begin(), articles_.end(), 0.0, [](double total, const Article& article) { return total + (article.taxable ? article.prix * 0.14975 : 0.0); });
 
 		}
 
+		// Méthode pour calculer le total à payer
 		double calculerTotalAPayer() const
 		{
 			return calculerTotalAvantTaxes() + calculerTotalTaxes();
