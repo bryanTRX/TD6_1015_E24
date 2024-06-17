@@ -36,7 +36,7 @@ namespace Vue
 
             else if (prix <= 0.0)
             {
-                throw std::invalid_argument("Le prix de l'article ne peut pas être inférieur ou égal a zéro.");
+                throw std::invalid_argument("Le prix de l'article ne peut pas être inférieur ou égal à zéro.");
             }
             
             Modele::Article article = { description.toStdString(), prix, taxable };

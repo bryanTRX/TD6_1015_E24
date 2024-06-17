@@ -33,7 +33,7 @@ namespace Modele
 			// Vérifie si le prix de l'article est zéro
 			if (article.prix <= 0.0)
 			{
-				throw std::invalid_argument("Le prix de l'article ne peut pas être inférieur ou égal a zéro.");
+				throw std::invalid_argument("Le prix de l'article ne peut pas être inférieur ou égal à zéro.");
 			}
 			articles_.push_back(article);
 		}
